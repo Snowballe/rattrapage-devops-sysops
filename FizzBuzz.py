@@ -12,4 +12,8 @@ def fizzBuzz(n):
     else:
         return str(n)
 
-print(fizzBuzz(15))
+assert fizzBuzz(15) == "FizzBuzz", "Doit retourner FizzBuzz car multiple de 3 et 5"
+assert fizzBuzz(5) == "Buzz", "Doit retourner Buzz car multiple de 5"
+assert fizzBuzz(3) == "Fizz", "Retourne Fizz car multiple de 3"
+assert fizzBuzz(8) == "8","Retourne le chiffre car non multiple des 2 chiffres"
+print("tests passés")
